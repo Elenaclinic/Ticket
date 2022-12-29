@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class TicketManager {
     private final TicketRepository repository;
 
+    private Ticket[] tickets = new Ticket[0];
+
     public TicketManager(TicketRepository repository) {
         this.repository = repository;
     }

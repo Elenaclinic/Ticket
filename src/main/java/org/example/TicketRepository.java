@@ -5,7 +5,6 @@ public class TicketRepository {
 
 
     public Ticket[] findAll() {
-
         return tickets;
     }
 
@@ -33,15 +32,6 @@ public class TicketRepository {
             }
         }
         tickets = tmp;
-    }
-
-    public Ticket findByAirportEnt(String air) {
-        for (Ticket ticket : tickets) {
-            if (ticket.getAirportEnt() == air) {
-                return ticket;
-            }
-        }
-        return null;
     }
 }
 
