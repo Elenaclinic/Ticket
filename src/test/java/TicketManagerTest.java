@@ -15,8 +15,8 @@ public class TicketManagerTest {
         Ticket ticket2 = new Ticket(2, 1500, "SPB", "MSK", 70);
         Ticket ticket3 = new Ticket(3, 1200, "MSK", "MSQ", 65);
         Ticket ticket4 = new Ticket(4, 1100, "MSQ", "SPB", 50);
-        Ticket ticket5 = new Ticket(5, 1300, "SPB", "MSK", 75);
-        Ticket ticket6 = new Ticket(6, 1050, "MSK", "MSQ", 75);
+        Ticket ticket5 = new Ticket(5, 1000, "SPB", "MSK", 75);
+        Ticket ticket6 = new Ticket(6, 1050, "MSK", "MSQ", 65);
         Ticket ticket7 = new Ticket(7, 900, "MSK", "MSQ", 80);
 
         manager.save(ticket1);
@@ -45,7 +45,7 @@ public class TicketManagerTest {
         Ticket ticket3 = new Ticket(3, 1200, "MSK", "MSQ", 65);
         Ticket ticket4 = new Ticket(4, 1100, "MSQ", "SPB", 50);
         Ticket ticket5 = new Ticket(5, 1300, "SPB", "MSK", 75);
-        Ticket ticket6 = new Ticket(6, 1050, "MSK", "MSQ", 75);
+        Ticket ticket6 = new Ticket(6, 1200, "MSK", "MSQ", 75);
         Ticket ticket7 = new Ticket(7, 900, "MSK", "MSQ", 80);
 
         manager.save(ticket1);
@@ -58,7 +58,7 @@ public class TicketManagerTest {
 
 
 
-        Ticket[] expected = {ticket7, ticket6, ticket3};
+        Ticket[] expected = {ticket7, ticket3, ticket6};
         Ticket[] actual = manager.findAll("MSK", "MSQ");
 
         Assertions.assertArrayEquals(expected, actual);

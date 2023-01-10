@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4b1997d-089b-4fab-a9de-0765091f4fcc" name="Changes" comment="add test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TicketRepositoryTest.java" afterDir="false" />
+    <list default="true" id="f4b1997d-089b-4fab-a9de-0765091f4fcc" name="Changes" comment="add gitignore">
+      <change beforePath="$PROJECT_DIR$/../ProductManager" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManager" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TicketManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TicketManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TicketRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TicketManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TicketManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +43,12 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TicketRepositoryTest.testRepositoryDeleteById">
-    <configuration name="TicketManagerTest.testFindByAirportOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TicketManagerTest.testFindByAirport">
+    <configuration name="TicketManagerTest.testFindByAirport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ticket" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TicketManagerTest" />
-      <option name="METHOD_NAME" value="testFindByAirportOut" />
+      <option name="METHOD_NAME" value="testFindByAirport" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TicketManagerTest.testFindByAirport" />
         <item itemvalue="JUnit.TicketRepositoryTest.testRepositoryDeleteById" />
         <item itemvalue="JUnit.TicketRepositoryTest.testFindAll" />
         <item itemvalue="JUnit.TicketRepositoryTest" />
         <item itemvalue="JUnit.TicketRepositoryTest.testFindByAirport" />
-        <item itemvalue="JUnit.TicketManagerTest.testFindByAirportOut" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672315022722</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add gitignore">
+      <created>1672344797606</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672344797606</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +150,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="edit pom.xml" />
     <MESSAGE value="add test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test" />
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

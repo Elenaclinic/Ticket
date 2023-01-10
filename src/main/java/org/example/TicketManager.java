@@ -33,9 +33,7 @@ public class TicketManager {
 
     private boolean matches(Ticket ticket, String airportOut, String airportEnt) {
         if (ticket.getAirportOut().equals(airportOut)) {
-            if(ticket.getAirportEnt().equals(airportEnt)) {
-                return true;
-            }
+            return ticket.getAirportEnt().equals(airportEnt);
         }
         return false;
     }
