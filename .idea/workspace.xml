@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4b1997d-089b-4fab-a9de-0765091f4fcc" name="Changes" comment="add gitignore">
+    <list default="true" id="f4b1997d-089b-4fab-a9de-0765091f4fcc" name="Changes" comment="correct 100%">
       <change beforePath="$PROJECT_DIR$/../ProductManager" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManager" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TicketManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TicketManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +148,8 @@
     <MESSAGE value="edit pom.xml" />
     <MESSAGE value="add test" />
     <MESSAGE value="add gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
+    <MESSAGE value="correct 100%" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct 100%" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
