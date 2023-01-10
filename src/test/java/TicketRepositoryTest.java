@@ -43,7 +43,7 @@ public class TicketRepositoryTest {
         Ticket ticket4 = new Ticket(4, 1100, "MSQ", "SPB", 50);
         Ticket ticket5 = new Ticket(5, 1300, "SPB", "MSK", 75);
         Ticket ticket6 = new Ticket(6, 1050, "MSK", "MSQ", 75);
-        Ticket ticket7 = new Ticket(7, 900, "MSK", "MSQ", 80);
+        Ticket ticket7 = new Ticket(7, 900, "MSK", "MSQ", 85);
 
         repo.save(ticket1);
         repo.save(ticket2);
