@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4b1997d-089b-4fab-a9de-0765091f4fcc" name="Changes" comment="correct again">
+    <list default="true" id="f4b1997d-089b-4fab-a9de-0765091f4fcc" name="Changes" comment="correct finish">
       <change beforePath="$PROJECT_DIR$/../ProductManager" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductManager" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TicketManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TicketManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TicketManagerTest.testFindByAirport">
+  <component name="RunManager" selected="JUnit.TicketManagerTest.testFindOneTickets">
     <configuration name="TicketManagerTest.testFindByAirport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ticket" />
       <option name="PACKAGE_NAME" value="" />
@@ -50,11 +52,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TicketManagerTest.testFindNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ticket" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TicketRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="TicketManagerTest" />
+      <option name="METHOD_NAME" value="testFindNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketManagerTest.testFindOneTickets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ticket" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TicketManagerTest" />
+      <option name="METHOD_NAME" value="testFindOneTickets" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -64,16 +77,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TicketRepositoryTest" />
       <option name="METHOD_NAME" value="testFindAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicketRepositoryTest.testFindByAirport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ticket" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TicketRepositoryTest" />
-      <option name="METHOD_NAME" value="testFindByAirport" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TicketManagerTest.testFindOneTickets" />
+        <item itemvalue="JUnit.TicketManagerTest.testFindNull" />
         <item itemvalue="JUnit.TicketManagerTest.testFindByAirport" />
         <item itemvalue="JUnit.TicketRepositoryTest.testRepositoryDeleteById" />
         <item itemvalue="JUnit.TicketRepositoryTest.testFindAll" />
-        <item itemvalue="JUnit.TicketRepositoryTest" />
-        <item itemvalue="JUnit.TicketRepositoryTest.testFindByAirport" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +153,8 @@
     <MESSAGE value="correct 100%" />
     <MESSAGE value="correct" />
     <MESSAGE value="correct again" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct again" />
+    <MESSAGE value="correct finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct finish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -164,6 +168,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/TicketRepositoryTest.java</url>
           <line>31</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TicketManagerTest.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
